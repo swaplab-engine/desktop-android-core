@@ -64,7 +64,7 @@ RUN yes | sdkmanager --licenses && \
 # -------------------------------------------------------------------
 # 4. Gradle Installation
 # -------------------------------------------------------------------
-ARG GRADLE_VERSION=8.11.1
+ARG GRADLE_VERSION=8.13
 ENV GRADLE_HOME=/opt/gradle/gradle-${GRADLE_VERSION}
 RUN curl -o gradle.zip -L https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip && \
     unzip -d /opt/gradle gradle.zip && \

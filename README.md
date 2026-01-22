@@ -110,9 +110,11 @@ This image is optimized strictly for **Android builds**. It is stripped of unnec
 | :--- | :--- | :--- |
 | **OS** | Ubuntu 22.04 LTS | Stable Linux Foundation |
 | **Android SDK** | API Level 35 | Latest Build Tools (35.0.0) |
-| **Gradle** | v8.11.1 | High-performance build automation |
+| **Gradle** | v8.13 | High-performance build automation |
 | **Node.js** | v20 (LTS) | JavaScript Runtime |
 | **Java** | OpenJDK 21 | Required for modern Android builds |
+| **Capacitor CLI** | v7.1.0 | Native Runtime Bridge |
+| **Cordova CLI** | Latest | Legacy Support |
 | **xml2js / plist** | Latest | **Cordova Plugin Hook Dependencies** |
 | **Security** | Trivy | Embedded vulnerability scanner |
 
